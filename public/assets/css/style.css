@@ -1,0 +1,78 @@
+body{
+	margin:0;
+	padding: 0;
+	background-color: #dee4ed;
+}
+
+
+
+#mainSection{
+	max-width: 1368px;
+	margin:0 auto;
+}
+
+
+.center-cadastro{
+	width: 500px;
+	margin: 100px auto 0 auto;
+	text-align: center;
+	border: 4px solid #1968e8;
+	box-sizing: border-box;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	padding-bottom: 60px;
+	background-color: #000;
+}
+
+.span-frase{
+	box-sizing: border-box;
+	margin: 0 auto 40px auto;
+	width: 100%;
+	height: 80px;
+	border: 4px solid #1968e8;
+	background-color: #1968e8;
+	border-bottom: none;
+}
+
+.frase{
+	
+	line-height: 80px;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+}
+
+.group{
+	/*display: flex;
+	justify-content: center;*/
+}
+
+button{
+	color: #fff;
+	border-radius: 10px;
+	width: 300px;
+	height: 40px;
+	background-color: #1968e8;
+	margin-top: 15px;
+	font-size: 17px;
+	font-weight: bold;
+
+}
+
+button:hover{
+	cursor: pointer;
+	background-color: #1a8cff;
+}
+
+
+@media only screen and (max-width: 735px){
+
+	.center-cadastro{
+		width: 100%;
+	}
+
+
+}
