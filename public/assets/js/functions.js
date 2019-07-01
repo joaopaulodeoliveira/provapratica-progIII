@@ -4,8 +4,8 @@ function valida_campos() {
 	var apelido = formulario.apelido.value;
 	var telefone = formulario.telefone.value;
 	var email = formulario.email.value;
-	var regExp = /^\([0-9]{2}\) ?[0-9]{9}$/;
-	var result = regExp.test(telefone);
+	var regex = /^\([0-9]{2}\) ?[0-9]{9}$/;
+	var result = regex.test(telefone);
 	
 	if(nome.length < 5 || nome == null || nome.length > 100){
 		if (nome.length > 100){
@@ -42,11 +42,6 @@ function valida_campos() {
 			return false;
         }  
 
-	 //  else if(telefone.length != 11 || telefone == null){
-	 //  	alert("Telefone invalido");
-		// formulario.telefone.focus();
-		// return false;
-	 //  }
 
 	 else if(email.indexOf("@") == -1 || email.indexOf(".") == -1 || email == "" || email == null) {
 		alert("Por favor, insira um e-mail válido.");
