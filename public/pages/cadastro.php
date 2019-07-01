@@ -38,7 +38,7 @@ require 'valida.php';
 						<div class="icone">
 						<i class="fas fa-user-secret"></i>
 						</div>
-						<input type="text" name="nome" id="nome" class="input-cadastro" placeholder="Nome" autocomplete="">
+						<input type="text" name="nome" id="nome" class="input-cadastro" placeholder="Nome"required>
 					</div>	
 
 
@@ -46,21 +46,21 @@ require 'valida.php';
 						<div class="icone">
 							<i class="fas fa-user"></i>
 						</div>
-						<input type="text" name="apelido" class="input-cadastro" placeholder="Apelido" autocomplete="">
+						<input type="text" name="apelido" class="input-cadastro" placeholder="Apelido" required>
 					</div>	
 
 					<div class="group">
 						<div class="icone">
 							<i class="fas fa-phone-alt"></i>
 						</div>
-						<input type="telefone" name="telefone" class="input-cadastro" placeholder="Telefone exemplo: (00) 123456789" autocomplete="">
+						<input type="telefone" name="telefone" class="input-cadastro" placeholder="Telefone exemplo: (00) 123456789" required>
 					</div>	
 
 					<div class="group">
 					<div class="icone">
 					<i class="fas fa-at"></i>
 					</div>
-						<input type="text" name="email" class="input-cadastro" placeholder="E-mail" autocomplete="">
+						<input type="text" name="email" class="input-cadastro" placeholder="E-mail" required>
 					</div>	
 				
 					
