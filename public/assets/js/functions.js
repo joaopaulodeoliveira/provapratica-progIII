@@ -36,7 +36,7 @@ function valida_campos() {
 		return false;
 	 }
 	}
-	    else if(result != true){  
+	    ele if(result != true){  
         	window.alert("O telefone é inválido! O telefone deve conter conter 11 dígitos numéricos sendo os dois primeiros dentro do (), exemplo: (00) 123456789");  
          	formulario.telefone.focus();
 			return false;
